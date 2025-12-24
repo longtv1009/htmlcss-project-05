@@ -349,3 +349,142 @@ a {
     font-weight: 600;
     line-height: 1;
 }
+
+/* Work */
+.work {
+    padding: 80px 0;
+    margin-top: 80px;
+}
+
+.work__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 130px;
+}
+
+.work__media {
+    position: relative;
+    display: flex;
+}
+
+.work__img-wrap {
+    position: relative;
+    width: 470px;
+}
+
+.work__img-wrap::after {
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    display: block;
+    content: url(../img/work-media-bg.svg);
+    width: 100%;
+    height: 550px;
+}
+
+.work__img {
+    position: relative;
+    z-index: 1;
+    display: block;
+    max-width: 100%;
+    height: 619px;
+    margin: 0 auto;
+}
+
+.work__icon-wrap,
+.work__icon,
+.work-card__img-wrap,
+.work-card__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work__icon-wrap {
+    position: absolute;
+    top: 76px;
+    right: 62px;
+    z-index: 1;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    background: #7264d6;
+}
+
+.work__icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background: #f8fbfe;
+}
+
+.work-card {
+    position: relative;
+    z-index: 1;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 226px;
+    height: 70px;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 0 0 68px -126px;
+    background: #fffdfa;
+    box-shadow: 0 14px 34px 0 rgba(0, 0, 0, 0.07);
+}
+
+.work-card__img-wrap {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background: #4ab5e3;
+}
+
+.work-card__img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.work-card__info {
+    font-family: Inter, sans-serif;
+    line-height: normal;
+}
+
+.work-card__title {
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.work-card__desc {
+    display: block;
+    margin-top: 5px;
+    color: var(--third-color);
+    font-size: 1.2rem;
+}
+
+.work__list {
+    margin-top: 70px;
+}
+
+.work-item + .work-item {
+    margin-top: 30px;
+}
+
+.work-item__heading {
+    color: var(--secondary-color);
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.45;
+}
+
+.work-item__desc {
+    margin-top: 16px;
+    color: var(--third-color);
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
