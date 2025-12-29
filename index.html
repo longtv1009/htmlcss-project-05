@@ -168,13 +168,14 @@
                             build websites and apps that accept payments and
                             send payouts globally. We are the best platform.
                         </p>
-                        <form action="" class="subscribe__form">
+                        <form action="" class="subscribe-form">
                             <input
                                 type="email"
                                 name="email"
                                 id="email"
                                 class="hero__form-input"
                                 placeholder="Your email address"
+                                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
                             />
                             <button type="submit" class="btn hero__btn">
                                 Get Started
@@ -230,7 +231,7 @@
             </div>
         </section>
 
-        <main style="height: 5000px">
+        <main>
             <!-- Work -->
             <section class="work">
                 <div class="container">
@@ -827,5 +828,101 @@
                 </div>
             </section>
         </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <!-- Column logo -->
+                    <div class="footer__column">
+                        <a href="#">
+                            <img src="./assets/img/logo.svg" alt="CeloBank" />
+                        </a>
+                    </div>
+
+                    <!-- Column sitemap -->
+                    <section class="footer__column">
+                        <h3 class="footer__heading">Sitemap</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">Home</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">Abouts</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">Growers</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">Merchants</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">Contact</a>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <!-- Column socials -->
+                    <section class="footer__column">
+                        <h3 class="footer__heading">Socials</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">Facebook</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">Linkedin</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">Instagram</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">Twitter</a>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <!-- Column address & subscribe-->
+                    <section class="footer__column">
+                        <h3 class="footer__heading">Head Office</h3>
+                        <p class="footer__desc">
+                            Xilliams Corner Wine © 2017. 1112 A Market St # Ste
+                            B22, Charlottesville, CA 45565
+                        </p>
+                        <h3 class="footer__heading">News letter</h3>
+                        <form
+                            action=""
+                            class="subscribe-form subscribe-form__footer"
+                        >
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                class="subscribe-form__input"
+                                placeholder="Email address..."
+                                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                            />
+                            <button class="btn subscribe-form__submit">
+                                Subscribe
+                            </button>
+                        </form>
+                    </section>
+                </div>
+
+                <div class="footer__bottom">
+                    <a href="mailto:email@gmail.com" class="footer__link">
+                        email@gmail.com
+                    </a>
+                    <a href="tel:(123) 456-7890" class="footer__link">
+                        (123) 456-7890
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__copyright">
+                <p class="footer__copyright-text">
+                    © 2020 Ligft Media All rights reserved.
+                </p>
+            </div>
+        </footer>
     </body>
 </html>
