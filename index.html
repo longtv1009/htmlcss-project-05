@@ -83,9 +83,6 @@
         />
         <meta name="theme-color" content="#ffffff" />
 
-        <!-- Reset CSS -->
-        <link rel="stylesheet" href="./assets/css/reset.css" />
-
         <!-- Embed Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -94,8 +91,22 @@
             rel="stylesheet"
         />
 
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+
         <!-- Styles -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
+
+        <!-- Animation -->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
     </head>
     <body>
         <!-- Header -->
@@ -156,19 +167,34 @@
                 <div class="hero__inner">
                     <section class="hero__content">
                         <p class="section__label">Digital Smart Wallet</p>
-                        <h1 class="hero__heading">
+                        <h1
+                            class="hero__heading"
+                            data-aos="fade-down-right"
+                            data-aos-duration="1000"
+                        >
                             Digital
                             <strong class="hero__heading--strong">
                                 Payment
                             </strong>
                             For Everyone.
                         </h1>
-                        <p class="section__desc">
+                        <p
+                            class="section__desc"
+                            data-aos="fade-down-right"
+                            data-aos-duration="1000"
+                            data-aos-delay="500"
+                        >
                             We bring together everything that’s required to
                             build websites and apps that accept payments and
                             send payouts globally. We are the best platform.
                         </p>
-                        <form action="" class="subscribe-form">
+                        <form
+                            action=""
+                            class="subscribe-form"
+                            data-aos="fade-down-right"
+                            data-aos-duration="1400"
+                            data-aos-delay="900"
+                        >
                             <input
                                 type="email"
                                 name="email"
@@ -186,7 +212,11 @@
                         </p>
                     </section>
                     <figure class="hero__media">
-                        <div class="hero-card__deposit">
+                        <div
+                            class="hero-card__deposit"
+                            data-aos="fade-right"
+                            data-aos-duration="1000"
+                        >
                             <img
                                 src="./assets/icons/download.svg"
                                 alt=""
@@ -206,16 +236,26 @@
                             src="./assets/img/mobile-screen.png"
                             alt=""
                             class="hero__img"
+                            data-aos="zoom-in-up"
+                            data-aos-duration="2000"
                         />
 
-                        <div class="hero-card__interest">
+                        <div
+                            class="hero-card__interest"
+                            data-aos="fade-left"
+                            data-aos-duration="1000"
+                        >
                             <span class="hero-card__interest-value">0%</span>
                             <span class="hero-card__interest-title">
                                 Interest
                             </span>
                         </div>
 
-                        <div class="hero-card__secured">
+                        <div
+                            class="hero-card__secured"
+                            data-aos="fade-up-left"
+                            data-aos-duration="1000"
+                        >
                             <img src="./assets/icons/secure-funds.svg" alt="" />
                             <div class="hero-card__secured-info">
                                 <span class="hero-card__secured-value">
@@ -242,8 +282,13 @@
                                     src="./assets/img/work-01.png"
                                     alt=""
                                     class="work__img"
+                                    data-aos="zoom-in-right"
+                                    data-aos-anchor-placement="top-bottom"
+                                    data-aos-duration="2000"
                                 />
-                                <div class="work__icon-wrap">
+                                <div
+                                    class="work__icon-wrap animate__animated animate__infinite animate__slow animate__heartBeat"
+                                >
                                     <div class="work__icon">
                                         <img
                                             src="./assets/icons/bank.svg"
@@ -253,7 +298,9 @@
                                 </div>
                             </figure>
 
-                            <div class="work-card">
+                            <div
+                                class="work-card animate__animated animate__infinite animate__slower animate__pulse"
+                            >
                                 <div class="work-card__img-wrap">
                                     <div class="work-card__img">
                                         <svg
@@ -356,7 +403,9 @@
                                     class="feature__img"
                                 />
                             </figure>
-                            <div class="feature-card__long">
+                            <div
+                                class="feature-card__long animate__animated animate__pulse animate__infinite animate__slow"
+                            >
                                 <div class="feature-card__long-img-wrap">
                                     <img
                                         src="./assets/icons/paper-plane.svg"
@@ -383,7 +432,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="feature-card__square">
+                            <div
+                                class="feature-card__square animate__animated animate__pulse animate__infinite animate__slow"
+                            >
                                 <div class="feature-card__square-img-wrap">
                                     <img
                                         src="./assets/icons/income.svg"
@@ -405,6 +456,8 @@
                                     src="./assets/img/feature-01.png"
                                     alt=""
                                     class="feature__img-bottom"
+                                    data-aos="zoom-out-right"
+                                    data-aos-duration="2000"
                                 />
                             </figure>
                             <div class="feature-card__large">
@@ -469,7 +522,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="feature-card__circle">
+                            <div
+                                class="feature-card__circle animate__animated animate__pulse animate__infinite animate__slow"
+                            >
                                 <img
                                     src="./assets/icons/rupee.svg"
                                     alt=""
@@ -522,7 +577,12 @@
                             <!-- Client item 01 -->
                             <div class="client-item">
                                 <div class="client-item__content">
-                                    <blockquote class="client-item__quote">
+                                    <blockquote
+                                        class="client-item__quote"
+                                        data-aos="fade-up"
+                                        data-aos-anchor-placement="top-center"
+                                        data-aos-duration="1000"
+                                    >
                                         Fantastic platform for online banking.
                                         The best online banking platform I have
                                         used. Payments, loans, and money
@@ -551,7 +611,12 @@
                             <!-- Client item 02 -->
                             <div class="client-item">
                                 <div class="client-item__content">
-                                    <blockquote class="client-item__quote">
+                                    <blockquote
+                                        class="client-item__quote"
+                                        data-aos="fade-up"
+                                        data-aos-anchor-placement="top-center"
+                                        data-aos-duration="1000"
+                                    >
                                         Fantastic platform for online banking.
                                         The best online banking platform I have
                                         used. Payments, loans, and money
@@ -806,22 +871,22 @@
                             <img
                                 src="./assets/icons/star.svg"
                                 alt=""
-                                class="download__decor-img"
+                                class="download__decor-img animate__animated animate__rotateOut animate__slow animate__infinite"
                             />
                             <img
                                 src="./assets/icons/star.svg"
                                 alt=""
-                                class="download__decor-img"
+                                class="download__decor-img animate__animated animate__rotateOut animate__slow animate__infinite"
                             />
                             <img
                                 src="./assets/icons/star.svg"
                                 alt=""
-                                class="download__decor-img"
+                                class="download__decor-img animate__animated animate__rotateOut animate__slow animate__infinite"
                             />
                             <img
                                 src="./assets/icons/star.svg"
                                 alt=""
-                                class="download__decor-img"
+                                class="download__decor-img animate__animated animate__rotateOut animate__slow animate__infinite"
                             />
                         </div>
                     </div>
@@ -845,19 +910,45 @@
                         <h3 class="footer__heading">Sitemap</h3>
                         <ul class="footer__list">
                             <li class="footer__item">
-                                <a href="#!" class="footer__link">Home</a>
+                                <a href="#!" class="footer__link" title="Home">
+                                    Home
+                                </a>
                             </li>
                             <li class="footer__item">
-                                <a href="#!" class="footer__link">Abouts</a>
+                                <a
+                                    href="#!"
+                                    class="footer__link"
+                                    title="Abouts"
+                                >
+                                    Abouts
+                                </a>
                             </li>
                             <li class="footer__item">
-                                <a href="#!" class="footer__link">Growers</a>
+                                <a
+                                    href="#!"
+                                    class="footer__link"
+                                    title="Growers"
+                                >
+                                    Growers
+                                </a>
                             </li>
                             <li class="footer__item">
-                                <a href="#!" class="footer__link">Merchants</a>
+                                <a
+                                    href="#!"
+                                    class="footer__link"
+                                    title="Merchants"
+                                >
+                                    Merchants
+                                </a>
                             </li>
                             <li class="footer__item">
-                                <a href="#!" class="footer__link">Contact</a>
+                                <a
+                                    href="#!"
+                                    class="footer__link"
+                                    title="Contact"
+                                >
+                                    Contact
+                                </a>
                             </li>
                         </ul>
                     </section>
@@ -867,16 +958,40 @@
                         <h3 class="footer__heading">Socials</h3>
                         <ul class="footer__list">
                             <li class="footer__item">
-                                <a href="#!" class="footer__link">Facebook</a>
+                                <a
+                                    href="#!"
+                                    class="footer__link"
+                                    title="Facebook"
+                                >
+                                    Facebook
+                                </a>
                             </li>
                             <li class="footer__item">
-                                <a href="#!" class="footer__link">Linkedin</a>
+                                <a
+                                    href="#!"
+                                    class="footer__link"
+                                    title="Linkedin"
+                                >
+                                    Linkedin
+                                </a>
                             </li>
                             <li class="footer__item">
-                                <a href="#!" class="footer__link">Instagram</a>
+                                <a
+                                    href="#!"
+                                    class="footer__link"
+                                    title="Instagram"
+                                >
+                                    Instagram
+                                </a>
                             </li>
                             <li class="footer__item">
-                                <a href="#!" class="footer__link">Twitter</a>
+                                <a
+                                    href="#!"
+                                    class="footer__link"
+                                    title="Twitter"
+                                >
+                                    Twitter
+                                </a>
                             </li>
                         </ul>
                     </section>
@@ -909,10 +1024,18 @@
                 </div>
 
                 <div class="footer__bottom">
-                    <a href="mailto:email@gmail.com" class="footer__link">
+                    <a
+                        href="mailto:email@gmail.com"
+                        class="footer__link footer__email"
+                        title="email@gmail.com"
+                    >
                         email@gmail.com
                     </a>
-                    <a href="tel:(123) 456-7890" class="footer__link">
+                    <a
+                        href="tel:(123) 456-7890"
+                        class="footer__link footer__tel"
+                        title="(123) 456-7890"
+                    >
                         (123) 456-7890
                     </a>
                 </div>
@@ -924,5 +1047,10 @@
                 </p>
             </div>
         </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
